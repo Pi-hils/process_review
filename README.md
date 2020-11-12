@@ -19,7 +19,7 @@ Input                                  |          Output
 [20, 40, 60, 90, 1050], 40, 1000       | [40,40,60,90, 1000]     #modified the high freq
 [40,50,60,1000], 40,1000               |  [40,50,60,1000] no modification
 
-Object: music_filters
+Object: Filters
 
 
 Run code in IRB

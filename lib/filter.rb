@@ -5,6 +5,9 @@ class Filter
     sound_wave.each do |freq|
       if freq > highest_filter
         new_sound_wave << highest_filter
+      elsif
+        freq < lowest_filter
+        new_sound_wave<<lowest_filter
       else
         new_sound_wave<<freq
       end

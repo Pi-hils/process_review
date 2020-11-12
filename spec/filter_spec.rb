@@ -24,4 +24,10 @@ describe Filter do
   it "converts to a default low value if a freq in the soundwave is below the lowest_filter" do
     expect(subject.music_filter([50, 20,30,45,1000], 40, 1000)).to eq [50,40,40,45,1000]
   end
+
+  #HIGH AND THE LOW
+    it "converts to a default low value if a freq in the soundwave is below the lowest_filter" do
+      expect(subject.music_filter([10, 20,30,45,2000], 30, 1050)).to eq [30,30,30,45,1050]
+    end
+
 end

@@ -3,7 +3,7 @@ Company: Digital Audio plugins
 
 Band Pass Filter
 Allows Musicians to apply the company's filter to their sounds. 
-2 filters - High ad Lowe filter - changes the freq and changes it.
+2 filters - High ad Low filter - changes the freq and changes it.
 exmaple 
 
 DEFAULT
@@ -19,7 +19,11 @@ Input                                  |          Output
 [20, 40, 60, 90, 1050], 40, 1000       | [40,40,60,90, 1000]     #modified the high freq
 [40,50,60,1000], 40,1000               |  [40,50,60,1000] no modification
 
-Object: Filters
+class: Filters
+attribute: low, high pass filter, normal
+method: music_filter
+
+
 
 
 Run code in IRB

@@ -1,4 +1,4 @@
-# process_review
+# process_review 2 
 Company: Digital Audio plugins
 
 ### Band Pass Filter
@@ -25,3 +25,17 @@ class: Filters <br>
 attribute: low, high pass filter, normal<br>
 method: music_filter<br>
 
+### steps
+Initiate your rspec
+```
+rspec --init
+```
+Add rspec gem to gemfile and in your terminal, type
+```
+bundle install
+```
+create your spec and lib files
+```
+touch spec/filename_spec.rb
+touch lib/filename.rb
+```

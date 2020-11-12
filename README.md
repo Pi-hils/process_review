@@ -35,7 +35,7 @@ Add rspec gem to gemfile and in your terminal, type
 ```
 bundle install
 ```
-create your spec and lib files
+Create your spec and lib files
 ```
 touch spec/filename_spec.rb
 touch lib/filename.rb

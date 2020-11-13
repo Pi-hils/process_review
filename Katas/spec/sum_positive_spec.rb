@@ -2,12 +2,11 @@ require 'sum_positive'
 
 describe Addition do
   subject(:addition) { described_class.new }
-  #|[1,4,7,12] | 24 |
+
   it "addes the sum of the arrays" do
     expect(addition.positive_sum([1,4,7,12])).to eq (24)
   end
 
-  #1) Ensure to add any digit together
   it 'will ensure the numbers are positive' do
     expect(addition.positive_sum([1,2,3])).to eq 6
   end

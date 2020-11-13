@@ -4,6 +4,16 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
 
+
+|Input       | Output|
+|---|---|
+|[1,4,7,12] | 24 |
+|[1,-4,7,12] | 20 |
+|[1,-6,-7,12] |  13|
+| [-1,-4,7,12] | 19 |
+
+
+
 Given an array
 1) Ensure that the number is + <br>
 2) If number is positive, push into a new array

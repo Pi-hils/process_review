@@ -11,9 +11,9 @@ EXAMPLE Input
 
 Input | Output |
 |---|---|
-"WRDS" | "~WRDS~"|
-"These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
-"Hello" | "Hello"
+"WRDS" | "~WRDS~"| #single word incorrectly spelt
+"These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"  #sentences with words misspelt
+"Hello" | "Hello" #string, nothing changes
 "Hello Wld" | "Hello ~Wld~"
 
 

@@ -1,6 +1,6 @@
 # Tiles
 
-From<a href="https://leetcode.com/interview/1">leetcode</a>
+From <a href="https://leetcode.com/interview/1">leetcode</a>
 <br>
 You have n  tiles, where each tile has one letter tiles[i] printed on it.
 <br>
@@ -20,6 +20,8 @@ Input: tiles = "V" <br>
 Output: 1<br>
 
 
-|Input |:Output |
+
+|Input |Output|
+|---|---|
 |AB|  4|
 |V|  1|

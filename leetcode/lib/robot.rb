@@ -1,5 +1,8 @@
 class Robot
   def movement(str)
-    str == "UD" ? true : false
+    if str == "UD" || str == "LR"
+      return true
+    end
+    
   end
 end

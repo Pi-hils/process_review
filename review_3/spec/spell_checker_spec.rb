@@ -14,6 +14,6 @@ describe SpellCheck do
 
   #"Hello Wld" | "Hello ~Wld~"
   it 'will output a string of the input but have a ~ around ONLY the incorrect word' do
-    expect(spellCheck.spelling("Hello Wld")).to eq("Hello ~Wld~")
+    expect(spellCheck.spelling("Hello Wld correctly")).to eq("Hello ~Wld~ correctly")
   end
 end

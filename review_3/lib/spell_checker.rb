@@ -16,8 +16,14 @@ class SpellCheck
   end
 
   def spelling(sentence)
-    sentence.split('')
-
+ p  individual = sentence.split(" ")
+    point =  individual.map { |word|
+     if word.include?(@dictionary)
+ p     word.to_s
+     else
+       "~#{word}~".to_s
+     end
+      }
+  return point.join(" ")
   end
-
  end

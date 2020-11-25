@@ -9,6 +9,11 @@ describe SpellCheck do
 
   #"WRDS" | "~WRDS~"|
   it 'will output a word with ~ if the word is incorrectly spelt' do
-    expect(spellCheck.spell("WRDS")).to eq ("~WRDS~")
+    expect(spellCheck.spell("WRDS")).to eq("~WRDS~")
+  end
+
+  #"Hello Wld" | "Hello ~Wld~"
+  it 'will output a string of the input but have a ~ around ONLY the incorrect word' do
+    expect(spellCheck.spelling("Hello Wld")).to eq("Hello ~Wld~")
   end
 end

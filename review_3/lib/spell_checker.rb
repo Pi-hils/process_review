@@ -1,11 +1,23 @@
 class SpellCheck
-  def spell(str)
-    "Hello"
+  attr_reader :dictionary
 
-    if str == "Hello"
-      return "Hello"
-    elsif str != "Hello"
-      return "~#{str}~"
+  def initialize
+    @dictionary=["Hello", "These","words", "are", "spelt", "correctly","world"]
+  end
+
+  def spell(string)
+   @dictionary.each do |item|
+    if item == string
+      string
+    elsif item != string
+      return "~#{string}~"
     end
   end
+  end
+
+  def spelling(sentence)
+    sentence.split('')
+
+  end
+
  end

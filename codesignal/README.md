@@ -6,3 +6,5 @@ In other words, if there are more than 1 duplicated numbers, return the number f
 has a smaller index than the second occurrence of the other number does. If there are no such elements, return -1.
 <br>
 [Exercise](https://app.codesignal.com/interview-practice/task/pMvymcahZ8dY4g75q)
+
+

@@ -15,3 +15,15 @@ def firstDuplicate(a)
   end
   -1
 end
+
+def firstNotRepeatingCharacter(s)
+  # counting = Hash.new(0)
+  s.chars.find do |i|
+    s.count(i)
+    if i == 1
+      i
+    else
+      '_'
+    end
+  end
+end

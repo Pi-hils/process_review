@@ -27,3 +27,8 @@ def firstNotRepeatingCharacter(s)
     end
   end
 end
+
+def rotateImage(a)
+  #rotate table so vertical now becomes horizontal
+      a.transpose.map(&:reverse)
+  end

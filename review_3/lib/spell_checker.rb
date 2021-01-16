@@ -15,15 +15,20 @@ class SpellCheck
   end
   end
 
-  def spelling(sentence)
- p  individual = sentence.split(" ")
-    point =  individual.map { |word|
-     if word.include?(@dictionary)
- p     word.to_s
-     else
-       "~#{word}~".to_s
-     end
-      }
-  return point.join(" ")
+   def spelling(sentence)
+    if sentence.is_a? String  
+      individual = sentence.to_s.split(" ")
+        point =  individual.map { |word|
+        if word.include?(@dictionary)
+          word =  word
+    p     word
+        else
+          word = "~#{word}~"
+          p word
+        end
+        }
+      return point.join(" ")
+      
+    end
   end
  end

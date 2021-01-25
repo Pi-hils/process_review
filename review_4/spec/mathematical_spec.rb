@@ -7,7 +7,7 @@ describe Mathematical do
     expect(subject.evaluation("5 / 4")).to eq ["5 / 4", 1.25]
   end
 
-  # it "can mathematically evaluate the string and return an integer" do
-  #   expect(subject.evaluation("5 + 1")).to eq [6]
-  # end
+  it "can mathematically evaluate the string and return an integer" do
+    expect(subject.evaluation("5 + 1")).to eq ["5 + 1", 6]
+  end
 end

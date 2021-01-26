@@ -10,4 +10,12 @@ describe Mathematical do
   it "can mathematically evaluate the string and return an integer" do
     expect(subject.evaluation("5 + 1")).to eq ["5 + 1", 6]
   end
+
+  it "mathematically evaluate the string and return an integer" do
+    expect(subject.evaluation("6 * 1")).to eq ["6 * 1", 6]  
+  end
+
+  # it "raises an error if string evaluates to 0 when divided" do
+  #   expect(subject.evaluation("5/0")).to eq "divided by zero" 
+  # end
 end

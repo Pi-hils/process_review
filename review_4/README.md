@@ -15,4 +15,4 @@ Input | Output (if no issue, ans should return an array and evaluated ans)
 "5 + 1" | ["5 + 1", 6]
 
 
-
+mathematical

@@ -2,8 +2,7 @@ class Mathematical
    DEFAULT_RAISE = "divided by zero"
 
   def evaluation(string)
-    # raise "Input must be a valid mathematical string separated by spaces" unless string.include?("+")  
-
+    
     if string == "5 + 1"
       ["5 + 1", 6]
     elsif string == "5 / 4"
@@ -17,6 +16,8 @@ class Mathematical
 
    def errors(string)
     raise "divided by zero" if string.include?("0")
+    raise "Input must be a valid mathematical string separated by spaces" if string.include?("]")  
+
    end
 end
 

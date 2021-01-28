@@ -7,4 +7,4 @@ def custom_count(string, search_char)
   counting
 end
 
-p custom_count("Helllo World", "ho")
+p custom_count ("Helllo World", "ho")

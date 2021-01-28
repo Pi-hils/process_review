@@ -2,6 +2,8 @@ Company:Acme - makes cmd lines for apps
 Build cmd line that allows to add and complete "to dos"
 
 present with a message:
+WELCOME
+
 Welcome to the Todo app! Your Todos:
 
 You don't have any todos!

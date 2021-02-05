@@ -1,14 +1,12 @@
-class Todo_list
+class Todo_List
   DEFAULT_LISTS = "What would you like to do?
-    Type `add`, followed by a sentence, to add a todo. 
+    Type `add`, followed by a sentence, to add a todo.
      Type `done`, followed by the todo ID, to complete a todo."
   def welcome
     "Welcome to the Todo app! Your Todos:
 
     You don't have any todos!
-    What would you like to do? 
-    Type `add`, followed by a sentence, to add a todo. 
-    Type `done`, followed by the todo ID, to complete a todo."
+    #{DEFAULT_LISTS}"
   end
 
   def add(string)

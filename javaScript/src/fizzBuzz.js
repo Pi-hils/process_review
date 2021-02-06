@@ -1,5 +1,20 @@
-function divide(dividedBy, number){
-   return dividedBy/number;
-}
+ function divide(div, number){
+  
+    if(div % 3 == 0 && div % 5 == 0 ){
+      return 'fizzBuzz'
+    }else if(div % 3 == 0){
+      return 'fizz'
+    }else if(div % 5 == 0){
+      return 'buzz'
+    }else(div % 3 != 0 && div % 5 != 0)
+    return(div)
+  }
 
-module.exports = divide;
+let n = 1
+
+for(let n = 1; n <= 10; n++){
+  console.log(divide(n));
+}
+ module.exports = divide;
+
+

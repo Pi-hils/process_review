@@ -12,7 +12,7 @@
 
 let n = 1
 
-for(let n = 1; n <= 10; n++){
+for(let n = 1; n <= 20; n++){
   console.log(divide(n));
 }
  module.exports = divide;

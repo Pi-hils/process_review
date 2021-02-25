@@ -3,7 +3,25 @@
     "id":1,
     "name" : "Hilda Amp",
     "age" : 23,
-    "email": "hilda.amp@hotmail.com"
+    "email": "hilda.amp@hello.com"
+  },
+  {
+    "id":2,
+    "name" : "Belle Swilly",
+    "age" : 41,
+    "email": "belle@hello.com"
+  },
+  {
+    "id":3,
+    "name" : "Aj Keller",
+    "age" : 18,
+    "email": "aj_k@hello.com"
+  },
+  {
+    "id":4,
+    "name" : "Akos Adu",
+    "age" : 24,
+    "email": "ask_a@hello.com"
   }
 
 ]

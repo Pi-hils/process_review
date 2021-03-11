@@ -1,0 +1,27 @@
+def solution(roman)
+  romans = {i: 1,
+v: 5,
+x: 10,
+l: 50,
+c: 100,
+d: 500,
+m: 1000
+}
+
+p new_roman = roman.downcase.split('')
+ values = []
+  romans.each{|letter,amount|
+    new_roman.each{ |x|
+    
+    if new_roman.include?(:i) && new_roman.include?(:v)
+      return (4)
+    
+    elsif
+    letter == x.to_sym
+    values.push(amount)
+    end
+  }
+
+    }
+ values.sum
+end

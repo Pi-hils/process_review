@@ -14,13 +14,13 @@ describe Grades do
     expect(subject.grade("90")).to eq("Green: 1")
   end
 
-    #if it is 70 = amber
-    it 'inputs a number of integers and each interger is matched to a colour' do
-      expect(subject.grade("70")).to eq("Amber: 1")
-    end
+  #   #if it is 70 = amber
+  #   it 'inputs a number of integers and each interger is matched to a colour' do
+  #     expect(subject.grade("70")).to eq("Amber: 1")
+  #   end
 
-      #if it is 40 = red
-  it 'inputs a number of integers and each interger is matched to a colour' do
-    expect(subject.grade("40")).to eq("Red: 1")
-  end
+  #     #if it is 40 = red
+  # it 'inputs a number of integers and each interger is matched to a colour' do
+  #   expect(subject.grade("40")).to eq("Red: 1")
+  # end
 end
